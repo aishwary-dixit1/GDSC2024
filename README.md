@@ -1,1 +1,1 @@
-# GDSC2024
+# GDSC2024 Aishwary Dixit
