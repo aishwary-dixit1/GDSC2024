@@ -53,70 +53,118 @@ button{
     margin: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.main-content{
-    border: 5px solid;
-    border-color: #3498db;
-    border-radius: 15px;
-    padding: 30px 5px 5px 5px;
-    margin: 15px;
-}
-.course-heading{
-    background-color: white;
-    color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 2px #3498db, 0 0 25px #3498db, 0 0 5px blue;
 
+
+
+/* ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* li {
+    display: inline;
+    margin-left: 20px;
+} */
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
-.courses{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 50px;
-    margin: 30px;
+/* 
+.contact, footer, .b1, .h, .p1, .p2, .b2 {
+    width: 100%;
+    max-width: 1350px;
+    margin: 15px auto;
+    box-sizing: border-box;
+} */
+
+
+
+.b1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    background-color: white;
+    border: 5px solid #3498db;
+    border-radius: 20px;
 }
-.course{
-    display: grid;
-    grid-template-rows: 225px 125px;
-    align-items: center;
-    height: 360px;
+
+.h {
+    height: 100px;
+    margin: 15px;
+    padding: 25px;
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: whitesmoke;
     border: 3px solid;
     border-color: white;
     border-radius: 20px;
     min-width: 300px;
     padding: 10px;
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
-.image{
-    width: auto;
-    height: 220px;
-    border-radius: 30px;
-    border: 1px solid;
+.h-heading{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #3498db, 0 0 25px #3498db, 0 0 5px blue;
+
 }
-.discription{
-    display: grid;
-    grid-template-rows: 40px 40px 40px;
-    width: auto;
-    justify-content: start;
-    align-items: start;
+
+.p1 {
+    margin: 15px;
+    padding: 15px;
+    height: 450px;
+    margin-right: 30px;
     background-color: white;
-    color: black;
-    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: white;
+    /* border-radius: 20px; */
+    min-width: 300px;
+    padding: 10px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
-.skill{
-    width: auto;
-    height: 40px;
+
+.p2 {
+    margin: 15px;
+    padding: 15px;
+    height: 450px;
+    border: 5px dotted #3498db;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 20px;
+    min-width: 900px;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.b2 {
+    height: 350px;
+    background-color: #a3d5f6;
+    border-radius: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 20px;
+    min-width: 300px;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
-.scope{
-    width: auto;
-    height: 40px;
-    margin: 5px;
-}
-.salary{
-    width: auto;
-    height: 40px;
-}
+
 .contact{
     height: 200px;
     border: 3px solid;
