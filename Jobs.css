@@ -43,7 +43,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 29vw;
 }
 button{
   border: 1px hidden;
@@ -156,7 +156,7 @@ section{
   justify-content: space-evenly;
 }
 .sidbar{
-  width: 10rem;
+  width: 15vw;
   height: 750px;
   background-color: #a3d5f6;
   margin-top: 20px;
@@ -174,7 +174,7 @@ section{
 
 }
 .rightP{
-  width: 1000px;
+  width: 70vw;
   height: 750px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -197,7 +197,7 @@ section{
 }
 .p1{
   width: 800;
-  height: 300px;
+  height: 350px;
   background-color: #a3d5f6;
   border-radius: 50px;
   border-radius: 20px;

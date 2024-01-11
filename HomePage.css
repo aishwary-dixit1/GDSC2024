@@ -40,7 +40,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 325px;
+    width: 18vw;
 }
 button{
     border: 1px hidden;
@@ -94,10 +94,12 @@ button{
 }
 .head{
     font-size: 25px;
+    /* height: 30vw; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #3498db;
+    text-align: center;
     margin: 5px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 .mentor-heading{
     background-color: white;
