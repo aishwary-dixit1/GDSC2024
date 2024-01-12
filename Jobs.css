@@ -47,14 +47,19 @@
 }
 button{
   border: 1px hidden;
-  width:75px;
+  width:5vw;
   height: 35px;
   background-color: #3498db;
   color: white;
   border-radius: 8px;
   text-align: center;
   margin: 3px;
+  margin-left: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.journey-button{
+  width: 10vw;
+  margin-left: 70px;
 }
   
   /* ul {
@@ -173,30 +178,31 @@ section{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-.rightP{
-  width: 70vw;
-  height: 750px;
+.rightP11{
+  width: 72vw;
+  height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* background-color: #a3d5f6; */
+  /* backgound-color: #a3d5f6; */
   /* border: 5px dotted #a3d5f6; */
-  display: grid;
+  display: flex;
   /* justify-content: center;
   align-items: center; */
   border-radius: 20px;
-  background-color: white;
+  background-color: w;
   border: 3px solid;
-  border-color: #3498db;
+  /* border-color: #3498db; */
+  border-color: white;
   border-radius: 20px;
   min-width: 300px;
   padding: 10px;
   
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 
 }
 .p1{
-  width: 800;
+  width: 200;
   height: 350px;
   background-color: #a3d5f6;
   border-radius: 50px;
@@ -207,14 +213,14 @@ section{
   border-radius: 20px;
   min-width: 300px;
   padding: 10px;
-  
+  margin-right: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.p2{
-  width: 800;
-  height: 300px;
+.rightp2{
+  width: 800px;
+  height: 700px;
   background-color: #a3d5f6;
   border-radius: 50px;
   border-radius: 20px;
