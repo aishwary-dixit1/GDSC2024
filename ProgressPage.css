@@ -92,6 +92,10 @@ button{
     font-family: 'Times New Roman', Times, serif;
     
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .progress-bar{
     border: 1px solid black;
     border-radius: 10px;

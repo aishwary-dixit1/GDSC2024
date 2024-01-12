@@ -121,7 +121,7 @@ a {
     margin: 15px;
     padding: 15px;
     height: 275px;
-    background-image: url('images/profilelogo.jpg');
+    background-image: url('images/spiderman.png');
     margin-right: 30px;
     background-color: white;
     border: 3px solid;
@@ -159,7 +159,7 @@ a {
 }
 
 .b2 {
-    height: 350px;
+    height:500px;
     background-color: #a3d5f6;
     border-radius: 20px;
     margin-top: 10px;
@@ -185,6 +185,32 @@ a {
     text-align: center;
     border-radius: 10px;
     
+}
+.certificate-head{
+    color: #3498db;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 15px;
+}
+.certificates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.cert{
+    border: 3px solid #3498db;
+    border-radius: 20px;
+    margin: 10px 30px 30px 30px;
+    min-height: 300px;
+    min-width: 300px;
+    align-items: center;
+    margin: 20px;
+}
+.certimage{
+    margin: 40px;
 }
 
 .contact{
