@@ -77,6 +77,9 @@ button{
     align-items: start;
     row-gap: 5px;
 }
+.lesson-progress{
+    min-width: 80%;
+}
 .progress{
     margin: 10px 30px 10px 30px;
     border: 1px hidden;
@@ -87,10 +90,49 @@ button{
     border-radius: 20px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: start;
-    align-items: start;
+    
+}
+.progress-bar{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 96%;
+    margin: 10px;
+}
+.bar1{
+    height: 20px;
+    width: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.bar2{
+    height: 20px;
+    width: 75%;
+    background-color: rgb(205, 238, 144);
+    text-align: center;
+    border-radius: 10px;
+}
+.bar3{
+    height: 20px;
+    width: 0%;
+    background-color: rgb(238, 222, 144);
+    text-align: center;
+    border-radius: 10px;
+}
+.bar4{
+    height: 20px;
+    width: 0%;
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 10px;
+}
+.bar5{
+    height: 20px;
+    width: 0%;
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 10px;
 }
 .lesson-name{
     padding: 5px;
@@ -98,8 +140,22 @@ button{
 }
 .right-main{
     margin: 20px;
-    border: 1px solid;
     min-height: 500px;
+    border: 5px solid #3498db;
+    border-radius: 20px;
+}
+.pro-head{
+    color: #3498db;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 .contact{
     height: 200px;

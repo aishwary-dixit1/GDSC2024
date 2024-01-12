@@ -85,68 +85,77 @@ a {
 .b1 {
     display: flex;
     flex-wrap: wrap;
-    align-items: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+}
+.main-body{
+    margin: 20px;
     border: 5px solid #3498db;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .h {
-    height: 100px;
+    height: 75px;
     margin: 15px;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: xx-large;
-    border-radius: 20px;
-    background-color: whitesmoke;
-    border: 3px solid;
-    border-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: white;
     min-width: 300px;
     padding: 10px;
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .h-heading{
-    background-color: whitesmoke;
-    color: whitesmoke;
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 2px #3498db, 0 0 25px #3498db, 0 0 5px blue;
+    background-color: white;
+    color: #3498db;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
 .p1 {
     margin: 15px;
     padding: 15px;
-    height: 450px;
+    height: 275px;
+    background-image: url('images/profilelogo.jpg');
     margin-right: 30px;
     background-color: white;
-    border-radius: 50%;
     border: 3px solid;
     border-color: white;
-    /* border-radius: 20px; */
-    min-width: 300px;
+    border-radius: 150px;
+    min-width: 275px;
     padding: 10px;
-    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .p2 {
     margin: 15px;
-    padding: 15px;
-    height: 450px;
+    padding: 5px;
+    height: 275px;
     border: 5px dotted #3498db;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 3px solid;
     border-color: white;
-    border-radius: 20px;
-    min-width: 900px;
-    padding: 10px;
-    background-color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    min-width: 450px;
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.discription{
+    margin-left: 25px;
+    color: black;
+    text-align: left;
+}
+.para{
+    font-size: 20px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .b2 {
@@ -163,6 +172,19 @@ a {
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+.progress-bar{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+.bar{
+    height: 20px;
+    width: 40%;
+    background-color: rgb(238, 222, 144);
+    text-align: center;
+    border-radius: 10px;
+    
 }
 
 .contact{
