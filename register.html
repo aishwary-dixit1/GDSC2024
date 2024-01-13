@@ -20,7 +20,7 @@
             <label for="floatingInput">Email address</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="passwordInp" plavceholder="Password">
+            <input type="password" class="form-control" id="passwordInp" placeholder="Password">
             <label for="floatingPassword">Password</label>
           </div>
           <div class="form-floating mb-3">
@@ -32,7 +32,7 @@
             <label for="floatingPassword">Last Name</label>
           </div>
 
-          <a href="chat.html" style="text-decoration: none;color: white;"><button onclick="myFunc('chat.html')" type="submit" class="btn btn-primary" style="float: right;">Create New User</button></a>
+          <a href="chat.html" style="text-decoration: none;color: white;"><button type="submit" class="btn btn-primary" style="float: right;">Create New User</button></a>
         <a href="login.html"><button type="button" style="float: right;" class="btn btn-primary me-2">Sign In</button></a>
      </form></div>
      <div class="contact">
@@ -82,7 +82,7 @@
         </script>
 
         <script type="module">
-          
+          let count =0;
             import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
             import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
             import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
@@ -112,7 +112,7 @@
 
             let RegisterUser = evt => {
               evt.preventDefault();
-
+              count++;
               createUserWithEmailAndPassword(auth, emailInp.value, passwordInp.value)
               .then((credentials)=>{
                    set(ref(db, 'UsersAuthList/' + credentials.user.uid),{
@@ -125,6 +125,9 @@
                 console.log(error.code);
                 console.log(error.message);
               })
+              if (count>=2){
+                myFunc('chat.html');
+              }
             }
 
             MainForm.addEventListener('submit', RegisterUser);
